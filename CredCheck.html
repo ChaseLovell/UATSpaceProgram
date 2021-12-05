@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--Chase Lovell, 12/5/2021, Assignment: Mission Control Operator Login-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Space Program Login</title>
+    <script src="CredCode.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+    <img src = "UAT_Spaceshield.jpg">
+    <h1>login</h1>
+    
+    <p id="loginStatus" class="loginID">Status of login...</p>
+        <br>
+        <form id="credSubmit" onsubmit="return false">
+            First name:     <input type="text" id="FirstName" /> <br>
+            Last name:      <input type="text" id="LastName" /> <br>
+            Badge number:   <input type="text" id="numPart" /> <br>
+            <input type="submit" onclick="checkCreds();" />
+</body>
+</html>
